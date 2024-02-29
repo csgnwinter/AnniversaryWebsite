@@ -48,7 +48,7 @@ body {
 }
 
 a {
-  color: #646464;
+  color: #646463;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -236,7 +236,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-bg {
   background-position: center center;
   width: 100%;
-  float: left;
+  float: top;
   position: relative;
 }
 
@@ -298,9 +298,10 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-cover {
-  height: 1000px;
+  height: 1200px;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center center;
   position: relative;
   width: 100%;
 }
@@ -311,7 +312,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.93);
 }
 .fh5co-cover > .fh5co-container {
   position: relative;
